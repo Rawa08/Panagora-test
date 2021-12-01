@@ -1,0 +1,44 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+};
+
+//Styleguide resources
+$custom-black: #131518;
+$custom-turquoise: #35c092;
+
+
+.heading-1 {
+    color: $custom-black;
+    font-size: 40px;
+};
+
+.heading-2 {
+    color: $custom-black;
+    font-size: 32px;
+};
+
+.heading-3 {
+    color: $custom-black;
+    font-size: 24px;
+};
+
+.paragraph {
+    color: $custom-black;
+    font-size: 16px;
+    line-height: 24px;
+};
+
+.custom-button {
+    width: 170px;
+    height: 60px;
+    color:white;
+    background-color: $custom-black;
+    border:none;
+
+    :hover { background-color: $custom-turquoise; };
+};
+
