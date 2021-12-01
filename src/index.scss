@@ -86,3 +86,19 @@ $custom-turquoise: #35c092;
 .product-link, :hover, :visited{
     text-decoration: none;
 };
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px;
+
+    h1{
+        margin: 50px;
+    };
+
+    p{
+        overflow-wrap: normal
+    }
+}
