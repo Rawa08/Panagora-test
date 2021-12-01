@@ -2,15 +2,15 @@ import Form from './AddForm';
 
 const ProductPage = async id => {
 
-    // Get filename based on id
-    const data = await fetch(`../data/${id}.json`);
-    const productData = await data.json();
+  // Get filename based on id
+  const data = await fetch(`../data/${id}.json`);
+  const productData = await data.json();
 
-    
-    const productContainer = document.createElement('div');
-    productContainer.className = 'product-page_container';
 
-    productContainer.innerHTML = 
+  const productContainer = document.createElement('div');
+  productContainer.className = 'product-page_container';
+
+  productContainer.innerHTML =
     `
     <img src="${productData.image}" /> 
     <div class="product-info_container"> 
@@ -21,11 +21,7 @@ const ProductPage = async id => {
     </div>
     `;
 
-
-
-
-
-    return productContainer
+  return productContainer
 };
 
 
