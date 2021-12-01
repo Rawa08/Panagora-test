@@ -49,4 +49,18 @@ $custom-turquoise: #35c092;
     flex-direction: row;
     justify-content: center;
     margin: 50px 0
-}
+};
+
+.nav{
+    display: flex;
+    flex: column;
+    justify-content: center;
+    margin:0;
+
+    .nav-link{
+        color: $custom-black;
+        font-size: 16px;
+        margin:0 15px;
+        text-decoration: none;
+    };
+};

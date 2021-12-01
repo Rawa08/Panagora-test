@@ -8,7 +8,11 @@ const LogoAndNav = () => {
     // createing nav element
     const nav = document.createElement('nav');
     nav.className = 'nav';
-    nav.innerHTML = '<li>Nav Element</li>';
+    nav.innerHTML = 
+    `
+    <a href="/" id="home-link" class="nav-link" data-link>Products</a>
+    <a href="/about" id="about-link" data-link class="nav-link">About</a>
+    `;
 
 
     // creating container for dynamic content
