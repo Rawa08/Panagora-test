@@ -43,6 +43,7 @@ module.exports = (_, argv) => {
       contentBase: path.join(__dirname, "src"),
       port: 3000,
       hot: true,
+      historyApiFallback:true
     },
     module: {
       rules: [
