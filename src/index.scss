@@ -42,3 +42,11 @@ $custom-turquoise: #35c092;
     :hover { background-color: $custom-turquoise; };
 };
 
+// Component Styles
+
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0
+}
