@@ -64,3 +64,25 @@ $custom-turquoise: #35c092;
         text-decoration: none;
     };
 };
+
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0
+}
+
+.product-card{
+    width: 20%;
+    min-width: 300px;
+    height: 400px;
+    margin: 15px;
+ 
+
+};
+
+.product-link, :hover, :visited{
+    text-decoration: none;
+};

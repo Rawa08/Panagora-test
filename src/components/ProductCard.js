@@ -3,7 +3,7 @@ const productCard = product => {
 
     const card = document.createElement('div');
 
-    card.className = 'product-item';
+    card.className = 'product-card';
   
     card.innerHTML = 
     ` <a href="/product/${product.id}" class="product-link" data-link > <img src=".${product.thumbnail}" alt="${product.name}"/>
