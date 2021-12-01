@@ -18,7 +18,7 @@ const LogoAndNav = () => {
     // creating container for dynamic content
     const appContainer = document.createElement('div');
     appContainer.setAttribute('id', 'app');
-    appContainer.innerHTML = '<h1>App Container</h1>'
+
 
 
     // Attaching elements to DOM
